@@ -1,0 +1,64 @@
+@media screen and (max-width:579px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav a {
+        text-decoration: none;
+        color: #e5e5e5;
+        margin-right: 5px;
+        font-size: 8px;
+    }
+
+    main{
+        display: flex;
+        justify-content: center;
+        height: 200px;
+        margin-top: 10px;
+    }
+
+    .filme-principal{
+        width: 60%;
+        height: 100%;
+        border-radius: 5px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .filme-principal .container {
+        margin: 0;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .description-film{
+        display: none;
+    }
+
+    .filme-principal .buttons{
+        margin-top: 5px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .button {
+        width: max-content;
+
+        font-size: 0.5rem;
+        padding: 8px;
+      }
+
+      .owl-carousel .item{
+        margin-top: 8px;
+      }
+}
+
+@media screen and(max-width: 700px){
+
+}
